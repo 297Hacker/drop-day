@@ -1,0 +1,49 @@
+$blue: #0000FF;
+$neon: #CBDC2A;
+
+@mixin clear() {
+  margin: 0;
+  padding: 0;
+}
+
+section, figure {
+
+  @include clear();
+
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+.jumbo {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+  .cover {
+    img {
+      display: block;
+      height: 300px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.content {
+  height: inherit;
+  left: 50%;
+  position: absolute;
+  top: 350px;
+  transform: translateX(-50%);
+  width: inherit;
+  p {
+    text-align: center;
+  }
+  .deadline {
+    background-color: $neon;
+    height: 50px;
+    float: left;
+    margin: 0 10px 0 0;
+    padding: 5px 5px 0 5px;
+    width: 50px;
+  }
+}

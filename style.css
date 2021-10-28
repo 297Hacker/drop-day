@@ -1,0 +1,39 @@
+section, figure {
+  margin: 0;
+  padding: 0;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.jumbo {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+}
+.jumbo .cover img {
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.content {
+  height: inherit;
+  left: 50%;
+  position: absolute;
+  top: 350px;
+  transform: translateX(-50%);
+  width: inherit;
+}
+.content p {
+  text-align: center;
+}
+.content .deadline {
+  background-color: #CBDC2A;
+  height: 50px;
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 5px 5px 0 5px;
+  width: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
